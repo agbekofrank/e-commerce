@@ -1,0 +1,51 @@
+.products {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(72, 255, 0); */
+
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+}
+#clothing {
+    font-weight: 400;
+}
+
+.card {
+    padding: 2px;
+    width: 17vw;
+    height: 85vh;
+    margin: 5px;
+
+}
+.item_backdrop {
+    /* width: 18vw; */
+    /* height: 48vh; */
+    background-color: #fafafb;
+}
+.card img {
+    width: 100%;
+}
+
+/*
+color choices
+*/
+
+.colors {
+    /* width: 100%; */
+    padding: 0;
+    min-height: 32px;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+li {
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(66, 65, 63);
+}
