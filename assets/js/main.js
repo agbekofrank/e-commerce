@@ -1,4 +1,8 @@
 
+function onClick(){
+    window.open('./detail.html');
+}
+
 fetch('../assets/data/items.json').then(
     resp => resp.json()
 ).then((data) => {

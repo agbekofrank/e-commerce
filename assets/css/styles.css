@@ -16,14 +16,24 @@ ul li {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .main {
-    /* display: flex; */
+   width: 49vw;
+    border: 1px solid rgb(17, 0, 255);
 }
 .left-panel {
-    width: 17vw;
-    /* border: 1px solid rgb(17, 0, 255); */
+    width: 12vw;
+    border: 1px solid rgb(255, 230, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: start; */
+}
+.right{
+    width: 35vw;
+    border: 1px solid rgb(247, 0, 255);
 }
 h2 {
     font-size: 2.2rem;

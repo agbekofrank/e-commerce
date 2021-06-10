@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -17,16 +18,23 @@
 <body>
     <div class="container">
         <div class="left-panel">
-            <h2>Ads</h2>
+            <div class="nav_img">
+                <img onclick="currentDiv(1)" src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
+            </div>
+            <div class="nav_img">
+                <img onclick="currentDiv(2)" src="./assets/images/men/shirts/2.jpg" alt="">
+            </div>
+            <div class="nav_img">
+                <img onclick="currentDiv(3)" src="./assets/images/men/shirts/3.jpg" alt="">
+            </div>
         </div>
         <div class="main">
-            <h2>Men's <span id="clothing">Clothing</span></h2>
-            <!-- <div id="itemsData">
-            </div> -->
             <div class="products">
                 <div class="card" id="card">
                     <div class="item_backdrop" id="item_backdrop">
-                        <img src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
+                        <img class="slides" src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
+                        <img class="slides" src="./assets/images/men/shirts/2.jpg" alt="">
+                        <img class="slides" src="./assets/images/men/shirts/3.jpg" alt="">
                     </div>
                     <ul class="colors" id="colors">
                         <li></li>
@@ -45,97 +53,11 @@
                         </b>
                     </p>
                 </div>
-
-                <div class="card">
-                    <div class="item-backdrop">
-                        <img src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
-                    </div>
-                    <ul class="colors">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p>
-                        Beachwood Hoodie
-                    </p>
-                    <p>
-                        <b>
-                            $128.00
-                        </b>
-                    </p>
-                </div>
-
-                 <div class="card">
-                    <div class="item-backdrop">
-                        <img src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
-                    </div>
-                    <ul class="colors">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p>
-                        Beachwood Hoodie
-                    </p>
-                    <p>
-                        <b>
-                            $128.00
-                        </b>
-                    </p>
-                </div> 
-
-                 <div class="card">
-                    <div class="item-backdrop">
-                        <img src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
-                    </div>
-                    <ul class="colors">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p>
-                        Beachwood Hoodie
-                    </p>
-                    <p>
-                        <b>
-                            $128.00
-                        </b>
-                    </p>
-                </div> 
-
-                 <div class="card">
-                    <div class="item-backdrop">
-                        <img src="./assets/images/men/shirts/hoodie_pink.jpg" alt="">
-                    </div>
-                    <ul class="colors">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p>
-                        Beachwood Hoodie
-                    </p>
-                    <p>
-                        <b>
-                            $128.00
-                        </b>
-                    </p>
-                </div> 
             </div>
         </div>
+        <div class="right"></div>
     </div>
+    <script src="./assets/js/slider.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
