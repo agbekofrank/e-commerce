@@ -28,6 +28,11 @@
 }
 .card img {
     width: 100%;
+    transition: all ease 0.5s;
+    overflow: visible;
+}
+.card img:hover{
+    transform: scale(1.5);
 }
 .nav_img {
     width: 70px;
@@ -51,7 +56,7 @@ color choices
     /* border: 1px solid red; */
 }
 
-li {
+.colors li {
     margin: 5px;
     float: left;
     border-radius: 50%;
