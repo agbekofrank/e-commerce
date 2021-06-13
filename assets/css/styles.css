@@ -50,10 +50,17 @@ h4{
     font-size: .9rem;
     color: rgb(36, 36, 36);
 }
+.h35{
+    margin-top: 0px;
+    font-size:1.10rem;
+}
 b{
     color: #002b5d; 
 }
 p{
     color: black;
     font-size: .8rem;
+}
+.underline{
+    text-decoration: underline;
 }

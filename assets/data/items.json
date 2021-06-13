@@ -2,15 +2,15 @@
     {
         "id": 1,
         "name": "Beachwood Hoodie",
-        "images": [],
-        "price": "$128",
+        "images": ["../images/men/shirts/1.jpg","../images/men/shirts/2.jpg", "../images/men/shirts/3.jpg"],
+        "price": 128,
         "color": "Bright Peach",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 2,
         "name": "Beachwood Hoodie",
-        "price": "$128",
+        "price": 128,
         "color": "Bright Peach",
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     }

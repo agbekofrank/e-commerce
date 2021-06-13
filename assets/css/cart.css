@@ -1,0 +1,109 @@
+/* The Modal (background) */
+
+.cart {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    right: 0;
+    top: 0;
+    width: 100vw;
+    /* Full width */
+    height: auto;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.cart-content {
+    background-color: #fefefe;
+    float: right;
+    /* margin: 15% auto; */
+    /* 15% from the top and centered */
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 35%;
+    height: 100%;
+    /* Could be more or less, depending on screen size */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-item img{
+    width: 170px;
+    margin: 10px;
+}
+.cart-item-info{
+    margin: 10px;
+}
+.add-item{
+    margin: 10px 22px 0 25px;
+    background-color: #fafafb;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total{
+    margin: 0px 22px 0 25px;
+    /* background-color: #fafafb; */
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h3-small{
+    font-size: .9em;
+    font-weight: bolder;
+    margin: 10px 5px;
+    color: #002b5d; 
+}
+hr{
+    width: 88.9%;
+}
+.d{
+    color: #002b5d; 
+    font-weight: bolder;
+}
+hr#b{
+    border: 5px solid #12aa52;
+    background-color: #12aa52;
+    border-radius: 10px;
+}
+.c-s{
+    margin-top: 10px;
+    border: 1px solid rgb(43, 43, 43);
+}
+
+/* The Close Button */
+
+.close {
+    padding-top: 9px;
+    background-color: #002b5c;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

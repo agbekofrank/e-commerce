@@ -58,10 +58,35 @@ span #colors {
     overflow: contain;
     border: 1px solid #000913;  
 }
+.adverts-nb{
+    width: 29.9vw;
+    height: 10vh;
+    text-align: center;
+    overflow: contain;
+    margin-top: 5px;
+    font-size: .90rem;
+    /* border: 1px solid #000913;   */
+}
+.adverts-nb img{
+    width: 70px;
+}
+#apple{
+    width: 30px;
+}
+#after-pay{
+    width: 50px;
+}
+#img-small{
+    color: #212122;
+    font-size: .6rem;
+}
 .buy{
     font-weight: bold;
     font-size: 17px;
     margin: auto 0;
     color: #002b5d; 
 
+}
+small{
+    color: #005ab8;
 }
