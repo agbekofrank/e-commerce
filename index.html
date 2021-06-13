@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/products.css">
     <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/checkout.css">
     <title>pdp</title>
 </head>
 
@@ -69,12 +70,12 @@
 
                 <p>Size: </p>
                 <ul class="sizes" id="sizes">
-                    <li>xs</li>
-                    <li>s</li>
-                    <li>m</li>
-                    <li>l</li>
-                    <li>xl</li>
-                    <li>xxl</li>
+                    <li>XS</li>
+                    <li>S</li>
+                    <li>M</li>
+                    <li>L</li>
+                    <li>XL</li>
+                    <li>XXL</li>
                 </ul>
                 <p>Size: Select a size size chart</p>
                 <div class="increment">
@@ -83,11 +84,9 @@
                     <i class="zmdi zmdi-plus-circle-o zmdi-hc-lg"></i>
                 </div>
                 <div class="submit-container">
-                    <div class="add-button" id="myBtn">
+                    <div class="add-button" id="addToBag">
                         <button type="submit" id="1" onclick="getItem(this)" >ADD TO BAG</button>
                     </div>
-
-
                     <!-- The Modal -->
                     <div id="cart" class="cart">
 
@@ -121,10 +120,10 @@
                             </div>
                             <hr id="b">
                             <p class="total d">You qualify for FREE SHIPPING!</p>
-                            <div class="close">
-                                Item added to Cart
-                                <span style="float: right;">&times;</span>
+                            <div class="close" id="checkoutBtn" >
+                                CHECKOUT
                             </div>
+                            <div class="checkout" id="checkout"></div>
                         </div>                
                     </div>
 
@@ -151,6 +150,7 @@
     <script src="./assets/js/cart.js "></script>
     <script src="./assets/js/slider.js "></script>
     <script src="./assets/js/main.js "></script>
+    <script src="./assets/js/checkout.js"></script>
 </body>
 
 </html>

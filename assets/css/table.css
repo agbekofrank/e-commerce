@@ -1,0 +1,11 @@
+table{
+    margin: 0px 0 0 10px;
+    /* border: 1px solid red; */
+}
+thead{
+    /* border: 1px solid red; */
+    background-color: rgb(226, 219, 219);
+}
+th{
+    border-left: 1px solid rgb(226, 219, 219);
+}

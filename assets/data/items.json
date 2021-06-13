@@ -2,16 +2,30 @@
     {
         "id": 1,
         "name": "Beachwood Hoodie",
-        "images": ["../images/men/shirts/1.jpg","../images/men/shirts/2.jpg", "../images/men/shirts/3.jpg"],
+        "images": ["../assets/images/men/shirts/1.jpg","../assets/images/men/shirts/2.jpg", "../assets/images/men/shirts/3.jpg"],
         "price": 128,
-        "color": "Bright Peach",
+        "colors": [
+            {"hex" : "#fed", "title": "Bright Peach"},
+            {"hex" : "#73d3e2", "title": "Flats Blue"},
+            {"hex" : "#1590d8", "title": "Hull Blue"},
+            {"hex" : "#e48083", "title": "Jetty Red"},
+            {"hex" : "#c8cad1", "title": "Light Gray Heather"},
+            {"hex" : "#272a3b", "title": "Vineyard Navy"}
+        ],
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     },
     {
         "id": 2,
         "name": "Beachwood Hoodie",
         "price": 128,
-        "color": "Bright Peach",
+        "colors":[
+            {"hex" : "#fed", "title": "Bright Peach"},
+            {"hex" : "#73d3e2", "title": "Flats Blue"},
+            {"hex" : "#1590d8", "title": "Hull Blue"},
+            {"hex" : "#e48083", "title": "Jetty Red"},
+            {"hex" : "#c8cad1", "title": "Light Gray Heather"},
+            {"hex" : "#272a3b", "title": "Vineyard Navy"}
+        ],
         "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
     }
 ]

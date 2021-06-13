@@ -13,15 +13,16 @@ span #colors {
     margin: 0;
 }
 #sizes li {
-    text-align: center;
+    font-size: .9rem;
     margin: 5px;
     float: left;
     width: 30px;
     height: 30px;
     background-color: rgb(246, 246, 246);
     color: rgb(110, 110, 110);
-    /* font-weight: bold; */
-    /* border: 2px solid rgb(66, 65, 63); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .increment {
     /* border: 1px solid #000; */

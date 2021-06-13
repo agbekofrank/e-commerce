@@ -12,15 +12,26 @@ let subTotal = document.getElementById('subT');
     }).then( (data) =>{
         for(let i=0;i<data.length; i++){
             if(data[i].id == item.id){
+                let colors = document.getElementById('colors');
                 bag.push(data[i]);
                 window.localStorage.setItem(`${i}`,JSON.stringify(data[i]));
                 itemName.innerText = data[i].name;
                 itemPrice.innerText = '$' + data[i].price;
-                itemcolor.innerText = data[i].color;
+                // itemcolor.innerText = data[i].color;
                 quantity.innerText = 'Qty: ' + window.localStorage.length;
                 let sm = data[i].price * window.localStorage.length;
                 sum.innerText = '$' + sm;
-                subTotal.innerText = '$' + sm
+                subTotal.innerText = '$' + sm;
+                // colors
+                let kolors = data[i].colors;
+                for(j=0; j<kolors.length; j++){
+                    // var radioInput = document.createElement('input');
+                    // radioInput.setAttribute('type', 'radio');
+                    let colorName = kolors[j].title;
+                    itemcolor.innerText = colorName
+                    // let colorHex = kolors[j].hex;
+                    // radioInput.style.cssText = `backgroundcolor:#${colorHex};`;
+                }
                 // console.log(window.localStorage.getItem(i));
             }
         }
@@ -39,7 +50,7 @@ function addToCart(data){
 var cart = document.getElementById("cart");
 
 // Get the button that opens the cart
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("addToBag");
 
 // Get the <span> element that closes the cart
 var span = document.getElementsByClassName("close")[0];
@@ -49,7 +60,11 @@ btn.onclick = function() {
     cart.style.display = "block";
 
 }
-
+// let checkoutBtn = document.getElementById('checkoutBtn');
+checkoutBtn.onclick = () => {
+    window.location.href = './checkout.html';
+    cart.style.display='none';
+}
 // When the user clicks on <span> (x), close the cart
 span.onclick = function() {
     cart.style.display = "none";

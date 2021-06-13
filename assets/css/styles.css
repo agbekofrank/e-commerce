@@ -9,6 +9,7 @@
 ul li {
     list-style: none;
 }
+hr{background-color: none;}
 .container {
     width: 100vw;
     min-height: 100vh;
